@@ -12,7 +12,11 @@ The first command to run is the following:
 This will result to the creation of the following structure:
 your-project/
 ├── README.md
+
 ├── .gitignore
+
 ├── Cargo.toml
+
 └── src/
+
     └── main.rs
