@@ -1,3 +1,6 @@
+mod features;
+
 fn main() {
-    println!("Hello, world!");
+    features::print::show_message();
 }
+

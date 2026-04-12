@@ -22,3 +22,8 @@ your-project/
 └── src/
 
 └── main.rs
+
+1. main.rs sees mod features;
+2. Rust loads the features module
+3. Then inside features, the mod.rs file says pub mod print;, which tells Rust to include print.rs and make it accessible from outside features
+4. main.rs can call features::print::show_message();
