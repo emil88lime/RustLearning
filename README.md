@@ -37,7 +37,7 @@ Rust uses the `println!` macro to print the text to the console.
 Example:  
 *Print string  
 `println!("Hello World!");`  
-*Print string and variable
+*Print string and variable  
 `println!("Number {x}");`
 
 
