@@ -40,5 +40,19 @@ _Print string_
 _Print string and variable_  
 `println!("Number {x}");`
 
+## Variables  
 
+Variables are _immutable_ by default in Rust. A value needs to be bound to a name and then it cannot be changed.  
+If you want them to become _mutable_ you need to add `mut` in the front of the variable name. 
+
+### Defining variables
+
+Examples:
+_Immutable_  
+`let x : i32 = 10;`  
+_Mutable_  
+`let mut y : i32 = 9`  
+If we try to assign a new value to the variables `x` and `y` like this:  
+`x = 11` //This will fail the compilation
+`y = 5` //This will work
 
