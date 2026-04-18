@@ -29,10 +29,14 @@ your-project/
 4. main.rs can call features::print::show_message();
 
 IMPORTANT NOTE: All the commands in Rust must end with `;`
+
 ## Print Macro
 
 Rust uses the `println!` macro to print the text to the console.
+
 Example:
+
 `println!("Hello World!");`
+
 
 
