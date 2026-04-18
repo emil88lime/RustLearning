@@ -35,9 +35,9 @@ IMPORTANT NOTE: All the commands in Rust must end with `;`
 Rust uses the `println!` macro to print the text to the console.
 
 Example:  
-*Print string  
+* Print string  
 `println!("Hello World!");`  
-*Print string and variable  
+* Print string and variable  
 `println!("Number {x}");`
 
 
